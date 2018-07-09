@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 double x_min = 0.0;
 double x_max= 4.0;
