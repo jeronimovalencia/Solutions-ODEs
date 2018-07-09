@@ -1,5 +1,5 @@
-graficas.pdf : datosEuler.dat datosLeapFrog.dat datosRK.dat plot.py
-	python plot.py
+graficas.pdf : datosEuler.dat datosLeapFrog.dat datosRK.dat plotLAB.py
+	python plotLAB.py
 	xdg-open graficas.pdf
 
 datosEuler.dat : datosEuler.exe
